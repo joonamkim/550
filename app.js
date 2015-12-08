@@ -52,8 +52,8 @@ require('./routes/index.js')(app, passport); // load our routes and pass in our 
 require('./routes/profile.js')(app, passport); // load our routes and pass in our app and fully configured passport
 
 // launch ======================================================================
-//app.listen(port);
-//console.log('The magic happens on port ' + port);
+app.listen(port);
+console.log('The magic happens on port ' + port);
 
 /************************************/
 
